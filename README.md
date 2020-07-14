@@ -7,9 +7,9 @@ GUI(framebuffer)
 
 アプリの実行
 
-#あったらうれしいけど絶対実装が面倒な奴
+# あったらうれしいけど絶対実装が面倒な奴
 Windows/Linux 互換ドライバーレイヤー
 
-#参考になりそうなサイト
+# 参考になりそうなサイト
 http://yuma.ohgami.jp/x86_64-Jisaku-OS/
 
