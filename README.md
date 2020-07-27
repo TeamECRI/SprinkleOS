@@ -19,5 +19,6 @@
 
 # 参考になりそうなサイト
 * http://yuma.ohgami.jp/x86_64-Jisaku-OS/
+* https://www.slideshare.net/uchan_nos/uefielf
 * 最新情報処理概論 改訂版 P.96~P.98
 * 平成30年度キタミ式応用情報技術者 P.268~P.333
