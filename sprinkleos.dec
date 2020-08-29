@@ -1,0 +1,5 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = sprinkleos
+  PACKAGE_GUID                   = c6ef5994-becc-4b31-8bb9-9746211704b9
+  PACKAGE_VERSION                = 0.1

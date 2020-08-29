@@ -1,0 +1,23 @@
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = sprinkleos
+  FILE_GUID                      = 26213998-6ebc-422b-b917-a396a364fb81
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  main.c
+  fb.c
+  gdt.c
+  interrupt.c
+  io.c
+  text.c
+  int_handler.s
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiLib
+  UefiApplicationEntryPoint

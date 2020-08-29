@@ -22,3 +22,13 @@
 * https://www.slideshare.net/uchan_nos/uefielf
 * 最新情報処理概論 改訂版 P.96~P.98
 * 平成30年度キタミ式応用情報技術者 P.268~P.333
+
+# ビルド方法
+```git clone https://github.com/tianocore/edk2.git```  
+```cd edk2```  
+```git clone https://gitlab.pepepper.cf/ecri/sprinkleos.git```  
+```. edksetup.sh```  
+```make -C BaseTools/Source/C```  
+target.txtのACTIVE_PLATFORMをsprinkleos/sprinkleos.dscに TARGET_ARCHをX64に TOOL_CHAIN_TAGをGCC5に
+```build```
+出来上がったBuild/SprinkleOSX64/DEBUG_GCC5/X64/sprinkleos.efiを上手いこと起動
