@@ -32,6 +32,6 @@
 ```git clone https://gitlab.pepepper.cf/ecri/sprinkleos.git```  
 ```. edksetup.sh```  
 ```make -C BaseTools/Source/C```  
-target.txtのACTIVE_PLATFORMをsprinkleos/sprinkleos.dscに TARGET_ARCHをX64に TOOL_CHAIN_TAGをGCC5に
-```build```
+target.txtのACTIVE_PLATFORMをsprinkleos/sprinkleos.dscに TARGET_ARCHをX64に TOOL_CHAIN_TAGをGCC5に  
+```build```  
 出来上がったBuild/SprinkleOSX64/DEBUG_GCC5/X64/sprinkleos.efiを上手いこと起動
