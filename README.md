@@ -9,13 +9,16 @@
 * アプリの実行 (ELF形式?)
 * GUI (framebuffer)
 
+## アプリケーション開発に必要になりそうなもの
+* gcc/binutils/glibc移植
+
 ## 上記以外の"リッチ"な機能
 * テキストエディター
 * ターミナル (CUI 脱却後)
 
 # あったらうれしいけど絶対実装が面倒な奴
 * Windows/Linux 互換ドライバーレイヤー
-* Windows/Linux 互換アプリケーションレイヤー
+* Windows/Linux 互換アプリケーションレイヤー(gcc移植には必須?)
 
 # 参考になりそうなサイト
 * http://yuma.ohgami.jp/x86_64-Jisaku-OS/
