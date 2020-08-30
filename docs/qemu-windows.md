@@ -1,4 +1,4 @@
-# (未完成) Wine on Windows で起動する
+# (未完成) QEMU on Windows で起動する
 ## 必要なソフトウェア
 * [Git for Windows](https://gitforwindows.org/)
 * (GUI が必要であれば) [TortoiseGit](https://tortoisegit.org/)
