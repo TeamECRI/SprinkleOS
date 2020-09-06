@@ -1,4 +1,4 @@
-# (未完成) Ubuntu をホストとして起動する
+# Ubuntu をホストとして起動する
 
 ## 環境
 * Ubuntu 20.04 LTS
@@ -35,8 +35,6 @@ Ubuntu 20.04 では既定では gcc-5 をインストールできません。ソ
 * ビルド  
 ```build```  
 成果物は `Build/SprinkleOSX64/DEBUG_GCC5/X64/sprinkleos.efi` にあります。
-
-## 起動
 
 ## 参考
 * [Using EDK II with Native GCC · tianocore/tianocore.github.io Wiki](https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC#Install_required_software_from_apt)
