@@ -1,4 +1,4 @@
-# Ubuntu をホストとして起動する
+# Ubuntu でビルドする
 
 ## 環境
 * Ubuntu 20.04 LTS
