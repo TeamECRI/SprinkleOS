@@ -11,7 +11,7 @@
 * ビルドに必要なパッケージをインストール (gcc を除く)  
 ```sudo apt -y install build-essential uuid-dev iasl git nasm python3-distutils```  
 * gcc-5 をインストール  
-Ubuntu 20.04 において、既定では gcc-5 をインストールできません。ソースを追加します。  
+Ubuntu 20.04 において、既定では gcc-5 をインストールできません。sources.list に追加します。  
 `echo "deb http://archive.ubuntu.com/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/xenial.list`  
 `sudo apt -y update`  
 `sudo apt -y install gcc-5`  
@@ -24,7 +24,7 @@ Ubuntu 20.04 において、既定では gcc-5 をインストールできませ
 * edk2 を設定  
 ```. edksetup.sh```
 * `target.txt` の編集  
-`Conf/target.txt` を開き、以下を編集する。  
+`Conf/target.txt` の中身を以下のように編集します。  
 `- ACTIVE_PLATFORM       = EmulatorPkg/EmulatorPkg.dsc`  
 `+ ACTIVE_PLATFORM       = sprinkleos/sprinkleos.dsc`  
 `- TARGET_ARCH           = IA32`  
