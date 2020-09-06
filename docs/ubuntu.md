@@ -11,7 +11,7 @@
 * ビルドに必要なパッケージをインストール (gcc を除く)  
 ```sudo apt -y install build-essential uuid-dev iasl git nasm python3-distutils```  
 * gcc-5 をインストール  
-Ubuntu 20.04 では既定では gcc-5 をインストールできません。ソースを追加します。  
+Ubuntu 20.04 において、既定では gcc-5 をインストールできません。ソースを追加します。  
 `echo "deb http://archive.ubuntu.com/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/xenial.list`  
 `sudo apt -y update`  
 `sudo apt -y install gcc-5`  
