@@ -1,8 +1,8 @@
-# (未完成) Windows Subsystem for Linux (WSL) で起動する
+# (未完成) Ubuntu をホストとして起動する
 
 ## 環境
-* Windows Subsystem for Linux
 * Ubuntu 20.04 LTS
+* (確認済み) Windows Subsystem for Linux
 
 ## ビルド
 コマンドラインで下記を実行する  
