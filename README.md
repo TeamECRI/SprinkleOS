@@ -1,5 +1,5 @@
 # [ECRI](https://gitlab.pepepper.cf/ECRI) / SprinkleOS
-Challenge of Hand-made OS.
+Challenge of handmade OS.
 
 # ドキュメント
 * [必要そうなもの, 実装予定のもの](docs/todo.md)
