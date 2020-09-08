@@ -23,3 +23,4 @@ sudo apt install acpica-tools
 
 ## 留意点
 * 更新した SprinkleOS を読み込むには、efi ファイルを再配置後 QEMU のコマンドを実行し直してください。
+* Windows 環境では、QEMU に PATH が通っていることを確認してください。
