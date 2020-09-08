@@ -1,9 +1,5 @@
 # [ECRI](https://gitlab.pepepper.cf/ECRI) / SprinkleOS
-
-<div style="text-align: center;">
-<h1>SprinkleOS</h1>
-<span>Challenge of Hand-made OS.</span><br>
-</div>
+Challenge of Hand-made OS.
 
 # ドキュメント
 * [必要そうなもの, 実装予定のもの](docs/todo.md)
