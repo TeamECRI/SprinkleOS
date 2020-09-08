@@ -13,7 +13,7 @@ sudo apt install acpica-tools
 ```
 2. ビルドした OVMF を使って起動する
 以下のようにQEMUを起動すればよいです。  
-このとき、以下のファイルがコマンドを実行するディレクトリに存在していることを確認してください。
+このとき、以下のファイルがコマンドを実行するディレクトリに存在していることを確認してください。  
 * `OVMF_CODE.fd` (`Build/OvmfX64/DEBUG_GCC5/FV/OVMF_CODE.fd` からコピー)
 * `OVMF_VARS.fd` (`Build/OvmfX64/DEBUG_GCC5/FV/OVMF_CODE.fd` からコピー)
 * `sprinkleos.efi` (`Build/SprinkleOSX64/DEBUG_GCC5/X64/sprinkleos.efi` からコピー)
