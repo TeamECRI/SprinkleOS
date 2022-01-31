@@ -1,4 +1,4 @@
-# [ECRI](https://gitlab.pepepper.cf/ECRI) / SprinkleOS
+# SprinkleOS
 Challenge of handmade OS.
 
 # ドキュメント
